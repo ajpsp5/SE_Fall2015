@@ -23,3 +23,7 @@ where a.id = {Athlete ID};
 <p>"R" means Reminder</p>
 <p>- Save Game Notification Relationship</p>
 <code>insert into gamenotificationsrelationship (game, notification) values({Event ID}, {Game ID});</code>
+<br>
+<h4>The Security department is notified to provide security guards and the necessary security equipment.</h4>
+<tb><p>- Create Message</p>
+<tb><code>select * from tickets;</code>
