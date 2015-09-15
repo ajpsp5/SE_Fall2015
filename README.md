@@ -43,7 +43,7 @@ where a.id = {Athlete ID};
 <h3>Q/A</h3>
 <strong><h7>Give me any question I will give an answer</h7></strong>
 <br>
-<h8>2 Years of enterprise web application development, over a year of document management, transaction solutions, and database architecture</h8>
+<h8>2 Years of enterprise web application development, over a year of creating document management software and database architecture</h8>
 <br>
 <br>
 
