@@ -33,5 +33,5 @@ where a.id = {Athlete ID};
 <br>
 
 <h4>The medals ceremonies are scheduled.</h4>
-<tb><p>- Get all scheduled cermonies</p>
-<tb><code>select * from cermonies where date(date)>=date(NOW());</code>
+<tb><p>- Get all scheduled ceremonies</p>
+<tb><code>select * from ceremonies where date(date)>=date(NOW());</code>
