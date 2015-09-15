@@ -13,6 +13,6 @@
 <tb><code>select g.name as 'Competition', g.id as 'Competition_id', g.time, g.location_name  from athletegamerelationship agr
 inner join athletes a on agr.athlete = a.id
 inner join games g on agr.game = g.id
-where a.id = <Athlete ID>;
+where a.id = {Athlete ID};
 </code>
 
