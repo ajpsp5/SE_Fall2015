@@ -5,4 +5,5 @@
 <h2>Queries</h2>
 <hr>
 <h4>Tickets are produced and prepared to be sold to the public</h4>
-<tb><code></code>
+<tb><code>select * from tickets;</code>
+<tb><p>Shows all tickets available</p>
