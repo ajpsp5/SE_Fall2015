@@ -17,5 +17,9 @@ inner join games g on agr.game = g.id
 where a.id = {Athlete ID};
 </code>
 <p>Save Notification from the above query</p>
-<code>insert into notifications (message, type)values('Your Event {Event Name} is at {Event Time & Date} in {Event Location}', 'R');</code>
+<code>insert into notifications 
+  (message, type)
+    values('Your Event {Event Name} is at {Event Time & Date} in {Event Location}', 'R');</code>
 <p>"R" means Reminder</p>
+<p>Save Game Notification Relationship</p>
+<code>insert into gamenotificationsrelationship</code>
