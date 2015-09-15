@@ -1,4 +1,5 @@
 <h1>Tenative Database</h1>
+<p><font color="grey">Database can change</font></p>
 <hr>
 <br>
 <br>
@@ -39,7 +40,7 @@ where a.id = {Athlete ID};
 <br>
 <hr>
 
-<h3>Q/A</h3>
+<h3>Q/A <font color="grey">Give me any question I will give an answer</font></h3>
 <br>
 
 <h4>Check if someone is family of athlete</h4>
@@ -47,3 +48,5 @@ where a.id = {Athlete ID};
 inner join athlete a on a.id = afr.athlete
 inner join familymember f on f.id = afr.familyMember
 where afr.active = 'Y' and a.id = {Athelete ID} and f.firstName = '{First Name}' and f.lastName = '{Last Name}';</code>
+
+
