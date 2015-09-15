@@ -1,5 +1,5 @@
 <h1>Tenative Database</h1>
-<p><font color="grey">Database can change</font></p>
+<h4>Database can change</h4>
 <hr>
 <br>
 <br>
@@ -40,7 +40,8 @@ where a.id = {Athlete ID};
 <br>
 <hr>
 
-<h3>Q/A <font color="grey">Give me any question I will give an answer</font></h3>
+<h3>Q/A</h3>
+<h5>Give me any question I will give an answer</h5>
 <br>
 
 <h4>Check if someone is family of athlete</h4>
