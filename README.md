@@ -38,10 +38,12 @@ where a.id = {Athlete ID};
 
 <br>
 <hr>
-<br>
 
 <h3>Q/A</h3>
-<h4>The Security department is notified to provide security guards and the necessary security equipment.</h4>
-<tb><p>- Create Message for Security</p>
-<tb><code>insert into notifications (message, type)values('Security Guards are needed at {Event Name}', 'S');</code>
-<p>"S" means Security</p>
+<br>
+
+<h4>Check if someone is family of athlete</h4>
+<tb><code>select afr.id from athletefamilymemberrelationship afr
+inner join athlete a on a.id = afr.athlete
+inner join familymember f on f.id = afr.familyMember
+where afr.active = 'Y' and a.id = {Athelete ID} and f.firstName = '{First Name}' and f.lastName = '{Last Name}';</code>
