@@ -1,5 +1,5 @@
 <h1>Tenative Database</h1>
-<h4>Database can change</h4>
+<h4><span style="color: grey;">Database can change</span></h4>
 <hr>
 <br>
 <br>
