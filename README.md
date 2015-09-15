@@ -22,4 +22,4 @@ where a.id = {Athlete ID};
     values('Your Event {Event Name} is at {Event Time & Date} in {Event Location}', 'R');</code>
 <p>"R" means Reminder</p>
 <p>Save Game Notification Relationship</p>
-<code>insert into gamenotificationsrelationship</code>
+<code>insert into gamenotificationsrelationship (game, notification) values({Event ID}, {Game ID});</code>
